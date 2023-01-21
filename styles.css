@@ -1,0 +1,169 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #acf1c9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.texto{
+    color: #220000;
+     font-size: larger;
+     text-align: center;
+    margin-bottom: 75px;
+   font-family: cursive;
+
+}
+.voll{
+    margin-top:300.3px ;
+    width: 1000;
+    height: 100px;
+   
+   
+}
+
+.iw{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 7000px;
+    margin-top: 0%;
+}
+
+.instacontinue{
+    display: flex;
+    align-items: stretch;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+
+}
+
+
+.instagramphone{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    
+    margin-left: 100px;
+
+}
+
+
+.instacontinue{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+width: 50%;
+min-height: 34rem;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color:#ffffff;
+    width: 70%;
+    padding: 1.3rem 0;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.instalogo{
+  height: 3rem;
+}
+.group:nth-child(1){
+     min-height: 19rem;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img{
+    height: 6rem;
+}
+
+.instagramlogin{
+    background-color:#45c465;
+    color: aliceblue;
+    padding: 8px;
+    border-color: #220000;
+    border-radius: 4px;
+}
+
+.instagramlogout{
+color:#137BAD;
+margin-top: 1rem;
+background-color:#7e7e7ee0 ;
+border-radius: 7px;
+}
+.not-account{
+   color:#191f08
+}
+
+.link-blue{
+    color: #137BAD;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 1,3rem 0;
+    color:darkslategray;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: contain;
+}
+
+.app-download:nth-child(1){
+background-image: url('./imagens/disponivel-na-app-store-botao-5.png');
+}
+.app-download:nth-child(2){
+    background-image: url('./imagens/disponivel-google-play-badge.png');
+    }
+
+
+    @media (max-width: 1024px){
+        .iw{
+            width: 90%;
+        }
+    }
+
+    @media  (max-width: 650px){
+.instagram-wrapper {
+    width: 90%;
+}
+ .instagramphone{
+    display: none;
+ }
+    }
+
